@@ -1,0 +1,15 @@
+{
+  "name": "hatchcat",
+  "version": "0.1.0",
+  "description": "Hatch new projects from tiny templates. Zero dependencies.",
+  "main": "src/index.js",
+  "bin": { "hatchcat": "bin/hatchcat.js" },
+  "files": ["bin", "src"],
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/hatchcat.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["scaffold", "cli", "generator", "template", "starter"],
+  "license": "MIT"
+}
